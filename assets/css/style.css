@@ -6,7 +6,24 @@
 
 .container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     height: 100svh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: clamp(50px, 12vw + 1px, 150px);
+}
 
+ul {
+    list-style-type: none;
+}
+li {
+    float: left;
+}
+img {
+    width: 40px;
 }
