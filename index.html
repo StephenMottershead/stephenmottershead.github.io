@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stephen Mottershead</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
@@ -15,12 +17,12 @@
     <section class="container">
         <h1>STEPHEN</h1>
         <h1>MOTTERSHEAD</h1>
-        <ul>
-            <li><a href="https://twitter.com/SMMottershead"><img src="/assets/images/Twitter-logo.svg" alt=""></a></li>
-            <li><a href="https://sketchfab.com/smmottershead"><img src="/assets/images/sketchfab-logo.svg" alt=""></a></li>
-            <li><a href="https://www.artstation.com/smmottershead"><img src="/assets/images/ArtStation-logo.svg" alt=""></a></li>
-            <li><a href="https://www.youtube.com/channel/UC7YByLfzcMs_3m6GkLBFzMw"><img src="/assets/images/YouTube-logo.svg" alt=""></a></li>
-            <li><a href="buymeacoffee.com/SMMottershead"><img src="/assets/images/bmc-logo.svg" alt=""></a></li>
+        <ul role="list" class="social-links">
+            <li class="twitter" aria-label="Twitter"><a href="https://twitter.com/SMMottershead">{% include socials/Twitter-logo.html %}</a></li>
+            <li class="sketchfab" aria-label="Sketchfab"><a href="https://sketchfab.com/smmottershead">{% include socials/sketchfab-logo.html %}</a></li>
+            <li class="artstation" aria-label="Artstation"><a href="https://www.artstation.com/smmottershead">{% include socials/ArtStation-logo.html %}</a></li>
+            <li class="youtube" aria-label="Youtube"><a href="https://www.youtube.com/channel/UC7YByLfzcMs_3m6GkLBFzMw">{% include socials/YouTube-logo.html %}</a></li>
+            <li class="bmac" aria-label="Buy Me A Coffee"><a href="https://www.buymeacoffee.com/SMMottershead">{% include socials/bmc-logo.html %}</a></li>
         </ul>
     </section>
     <footer>

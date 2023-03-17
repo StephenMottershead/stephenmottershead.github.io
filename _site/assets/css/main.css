@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100svh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: clamp(50px, 12vw + 1px, 150px);
+}
+
+/* blog page link */
+.bloglink a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+/* social links */
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  margin: 0 8px;
+}
+
+.social-links svg {
+  width: 40px;
+}
+
+.twitter:hover svg {
+  fill: #1da1f2;
+}
+
+.artstation:hover svg {
+  fill: #12a6e4;
+}
+
+.bmac:hover svg {
+  fill: #f2d200;
+}
+
+.sketchfab:hover svg {
+  fill: #29a1d2;
+}
+
+.youtube:hover svg {
+  fill: #f10002;
+}
+
+/*# sourceMappingURL=main.css.map */
